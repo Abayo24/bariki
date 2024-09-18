@@ -1,0 +1,127 @@
+/* Apply Open Sans font globally */
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-screen background styling */
+.background {
+    top: 0;
+    left: 0;
+    background: linear-gradient(122deg, #FFD9E6 0%, #F1DBEE 46%, #B7CDFF 100%);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* Donate button styling */
+.donate-btn {
+    width: 157px;
+    height: 58px;
+    background: #05305B;
+    border: 1px solid #05305B;
+    border-radius: 0px 0px 9px 9px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu {
+    top: 98px;
+    left: 74px;
+}
+
+/* Menu bar styling */
+.menu-bar {
+    width: 18px;
+    height: auto;
+}
+
+/* SDG text styling */
+.sdg-text {
+    font-weight: bold;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.tagline {
+    color: #707070;
+}
+
+.donate-diff-btn {
+    width: 185px;
+    height: 48px;
+    background: #EA3275;
+    border: 1px solid #EA3275;
+    border-radius: 29px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Glassmorphism Card Styling */
+.glassmorphism-card {
+    position: relative;
+    width: 178px;
+    height: 179px;
+    background: linear-gradient(135deg, #FFFFFF 0%, #FFFFFF14 100%);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Info Icon Styling */
+.info-icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin: 6px;
+    align-self: start;
+}
+
+/* Content Text Styling */
+.glassmorphism-card h5 {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+
+.search-input-container {
+    background: rgba(155, 154, 154, 0.2);
+    border-radius: 29px;
+    border: 1px solid #F8FAFC;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input */
+.search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding-left: 20px;
+    color: #707070;
+    font-size: 16px;
+    height: 58px;
+    border-radius: 29px;
+}
+
+/* Audio Icon inside Input */
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.audio-icon {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    cursor: pointer;
+}
